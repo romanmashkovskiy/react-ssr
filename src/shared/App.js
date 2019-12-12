@@ -20,6 +20,7 @@ class App extends Component {
                             ) }
                         />
                     )) }
+                    <Route render={ (props) => <NoMatch { ...props } /> }/>
                 </Switch>
             </div>
         )
